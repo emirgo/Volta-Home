@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"volta-home\startup_stm32f446xx.o"
+"volta-home\main.o"
+"volta-home\stm32f4xx_it.o"
+"volta-home\stm32f4xx_hal_msp.o"
+"volta-home\stm32f4xx_hal_tim.o"
+"volta-home\stm32f4xx_hal_tim_ex.o"
+"volta-home\stm32f4xx_hal_rcc.o"
+"volta-home\stm32f4xx_hal_rcc_ex.o"
+"volta-home\stm32f4xx_hal_flash.o"
+"volta-home\stm32f4xx_hal_flash_ex.o"
+"volta-home\stm32f4xx_hal_flash_ramfunc.o"
+"volta-home\stm32f4xx_hal_gpio.o"
+"volta-home\stm32f4xx_hal_dma_ex.o"
+"volta-home\stm32f4xx_hal_dma.o"
+"volta-home\stm32f4xx_hal_pwr.o"
+"volta-home\stm32f4xx_hal_pwr_ex.o"
+"volta-home\stm32f4xx_hal_cortex.o"
+"volta-home\stm32f4xx_hal.o"
+"volta-home\stm32f4xx_hal_exti.o"
+"volta-home\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Volta-Home\Volta-Home.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Volta-Home.map" -o Volta-Home\Volta-Home.axf
