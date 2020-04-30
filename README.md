@@ -4,7 +4,8 @@
 ## Roadmap:
 - TFT LCD driver ![feature in progress](https://img.shields.io/badge/-in%20progress-brightgreen)
 - UART driver for monitoring and development ![pending feature](https://img.shields.io/badge/-pending-orange)
-- BME280 driver ![pending feature](https://img.shields.io/badge/-pending-orange)
+- DHT11 driver to measure temperature and humidity ![pending feature](https://img.shields.io/badge/-pending-orange)
+- BME280 driver ![deprecated feature](https://img.shields.io/badge/-deprecated-lightgrey)
 - BETA board release
 - WiFi ESP-01 module driver ![pending feature](https://img.shields.io/badge/-pending-orange)
 - Board release v1.0
